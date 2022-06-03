@@ -4,7 +4,7 @@ do
 	array[i]=$((100 + RANDOM % 901))
 done
 echo "ARRAY Is"
-echo ${arrya[@]}
+echo ${array[@]}
 large=$((array[0]))
 sec_large=$((${array[1]}))
 for((i=0; i<=9; i++))
@@ -33,7 +33,7 @@ do
 		small=$((array[i]))
 fi
 
-	if((array[i] > sec_large && array[i] < small))
+	if((array[i] > sec_small && array[i] != small))
 then
 	sec_small=$((array[i]))
 fi
