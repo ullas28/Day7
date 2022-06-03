@@ -38,7 +38,5 @@ then
 	sec_small=$((array[i]))
 fi
 done
-
-
 echo "second large $sec_large"
 echo "second small $sec_small"
